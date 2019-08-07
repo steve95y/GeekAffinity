@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Calibri'), url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY6w&skey=a1029226f80653a8&v=v10) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Calibri', Candara, Segoe, "Segoe UI" ,helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-image: url(../media/pics/shark.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+p {
+    padding: 5px;
+    font-size: 18px;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    flex: 1 1 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.column_left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 2 100%;
+
+}
+
+
+.column_center {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    border: 1px solid;
+    height: 100%;
+}
+
+
+.column_right {
+    display: flex;
+    flex-direction: column;
+    flex: 1 3 100%;
+
+}
+
+.content_title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #1E90FF;
+}
+
+.nav {
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 0px;
+    height: 70px;
+    align-items: center;
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+#logo{
+
+}
+
+nav ul {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 0 -10px; */
+    margin-right: 30px;
+
+}
+
+nav li {
+
+    margin: auto 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav button {
+    margin-left: auto;
+}
